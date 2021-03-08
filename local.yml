@@ -24,7 +24,6 @@
         - kubectl
         - gimp
         - net-tools
-        - net-utils
         - nmap
         - wireshark
         - openssh
