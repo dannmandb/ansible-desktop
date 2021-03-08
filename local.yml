@@ -42,7 +42,20 @@
         - neofetch
         - ncdu
         - cmus
-
+        - celluloid
+        - chromium
+        - openrgb
+        - latex
+        - golang
+        - python3
+        - python3-pip
+        - node.js
+        - bricscad
+        - blender
+        - ardor 
+        - hydrogen
+        - easytag
+        - clementine
 
   - name: copy wallpaper file
     copy:
