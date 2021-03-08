@@ -27,7 +27,6 @@
         - nmap
         - wireshark
         - aircrack-ng
-        - airdecloak-ng
         - aireplay-ng
         - airgraph-ng
         - airmon-ng
