@@ -17,6 +17,28 @@
         - ca-certificates
         - software-properties-common
         - obs-studio
+        - docker
+        - docker-compose
+        - kubectl
+        - kubeadm
+        - kubectl
+        - gimp
+        - net-tools
+        - net-utils
+        - nmap
+        - wireshark
+        - openssh
+        - aircrack-ng
+        - airbase-ng
+        - airdecap-ng
+        - airdecloak-ng
+        - aireplay-ng
+        - airgraph-ng
+        - airmon-ng
+        - airodump-ng
+        - arp-scan
+        - wifite
+
 
   - name: copy wallpaper file
     copy:
