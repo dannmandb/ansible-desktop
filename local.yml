@@ -52,6 +52,7 @@
         - easytag
         - clementine
 #        - ubuntu-restricted-extras
+        - tightvncserver
 
   - name: copy wallpaper file
     copy:
