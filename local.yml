@@ -26,7 +26,6 @@
         - net-tools
         - nmap
         - wireshark
-        - openssh
         - aircrack-ng
         - airbase-ng
         - airdecap-ng
