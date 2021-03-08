@@ -11,6 +11,13 @@
         - tmux
         - vim-nox
         - python3-psutil
+        - dirmngr
+        - gnupg
+        - apt-transport-https
+        - ca-certificates
+        - software-properties-common
+        - obs-studio
+        - sublime-text
 
   - name: copy wallpaper file
     copy:
