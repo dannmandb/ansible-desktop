@@ -30,6 +30,19 @@
         - airgraph-ng
         - arp-scan
         - wifite
+        - mixxx
+        - lmms
+        - audacity
+        - gimp
+        - kdenlive
+        - tilix
+        - vlc
+        - gnome-tweaks
+        - flameshot
+        - neofetch
+        - virtualbox
+        - ncdu
+        - cmus
 
 
   - name: copy wallpaper file
