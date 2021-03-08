@@ -17,7 +17,6 @@
         - ca-certificates
         - software-properties-common
         - obs-studio
-        - sublime-text
 
   - name: copy wallpaper file
     copy:
