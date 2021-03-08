@@ -51,7 +51,7 @@
         - hydrogen
         - easytag
         - clementine
-        - ubuntu-restricted-extras
+#        - ubuntu-restricted-extras
 
   - name: copy wallpaper file
     copy:
