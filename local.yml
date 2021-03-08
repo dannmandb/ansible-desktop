@@ -1,58 +1,14 @@
 ---
 - hosts: localhost
-  connection: local
   become: true
-  
+  pre_tasks:
+    - name: update repositories
+      apt: update_cache=yes
+      changed_when: False
+
   tasks:
-  - name: install packages
-    package:
-      name:
-        - htop
-        - tmux
-        - vim-nox
-        - python3-psutil
-        - dirmngr
-        - gnupg
-        - apt-transport-https
-        - ca-certificates
-        - software-properties-common
-        - obs-studio
-        - docker
-        - docker-compose
-        - kubectl
-        - kubeadm
-        - kubectl
-        - gimp
-        - net-tools
-        - nmap
-        - wireshark
-        - aircrack-ng
-        - airgraph-ng
-        - arp-scan
-        - wifite
-        - mixxx
-        - lmms
-        - audacity
-        - gimp
-        - kdenlive
-        - tilix
-        - vlc
-        - gnome-tweaks
-        - flameshot
-        - neofetch
-        - ncdu
-        - cmus
-        - chromium
-        - golang
-        - python3
-        - python3-pip
-#        - bricscad
-        - blender
-        - hydrogen
-        - easytag
-        - clementine
-#        - ubuntu-restricted-extras
-        - tightvncserver
+    - include: tasks/packages.yml
+    - include: tasks/users.yml
 
   - name: copy wallpaper file
     copy:
@@ -98,4 +54,5 @@
       user: velociraptor
       minute: "*/10"
       job: ansible-pull -o -U https://github.com/dannmandb/ansible-desktop.git
+
 
