@@ -28,7 +28,6 @@
         - wireshark
         - aircrack-ng
         - airgraph-ng
-        - airmon-ng
         - airodump-ng
         - arp-scan
         - wifite
