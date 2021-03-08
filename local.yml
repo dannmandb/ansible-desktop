@@ -46,7 +46,7 @@
         - golang
         - python3
         - python3-pip
-        - bricscad
+#        - bricscad
         - blender
         - ardor 
         - hydrogen
