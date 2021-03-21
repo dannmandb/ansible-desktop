@@ -11,40 +11,39 @@
         - apt-transport-https
         - ca-certificates
         - software-properties-common
-        - obs-studio
+      #  - obs-studio
         - docker
         - docker-compose
         - kubectl
         - kubeadm
         - kubectl
-        - gimp
+      #  - gimp
         - net-tools
-        - nmap
-        - wireshark
-        - aircrack-ng
-        - airgraph-ng
-        - arp-scan
-        - wifite
-        - mixxx
-        - lmms
-        - audacity
-        - gimp
-        - kdenlive
-        - tilix
-        - vlc
-        - gnome-tweaks
-        - flameshot
-        - neofetch
-        - ncdu
-        - cmus
-        - chromium
+      #  - nmap
+      #  - wireshark
+      #  - aircrack-ng
+      #  - airgraph-ng
+      #  - arp-scan
+      #  - wifite
+      #  - mixxx
+      #  - lmms
+      #  - audacity
+      #  - kdenlive
+      #  - tilix
+      #  - vlc
+      #  - gnome-tweaks
+      #  - flameshot
+      #  - neofetch
+      #  - ncdu
+      #  - cmus
+      #  - chromium
         - golang
         - python3
         - python3-pip
 #        - bricscad
-        - blender
-        - hydrogen
-        - easytag
-        - clementine
+      #  - blender
+      #  - hydrogen
+      #  - easytag
+      #  - clementine
 #        - ubuntu-restricted-extras
-        - tightvncserver
+      #  - tightvncserver
